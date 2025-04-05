@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const authRoute = require('./routes/auth');
+const userRoute = require('./routes/user');
 
 const app = express();
 const PORT = 3000;
@@ -22,6 +23,7 @@ app.use(morgan('common'));
 
 //routes
 app.use('/api/auth', authRoute);
+app.use('/api/user', userRoute);
 
 app.listen(PORT, () => {
     console.log(`Server Running at PORT : ${PORT}`);
