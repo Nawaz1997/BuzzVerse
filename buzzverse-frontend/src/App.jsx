@@ -1,8 +1,8 @@
-function App() {
-  
-  return (
-    <h1>BuzzVerse</h1>
-  )
-}
+import Home from "./pages/home/Home";
+//import PersonIcon from '@mui/icons-material/Person';
 
-export default App
+function App() {
+  return <Home />
+};
+
+export default App;
