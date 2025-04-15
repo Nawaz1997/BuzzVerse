@@ -1,5 +1,5 @@
 import Home from "./pages/home/Home";
-//import PersonIcon from '@mui/icons-material/Person';
+import './App.css';
 
 function App() {
   return <Home />

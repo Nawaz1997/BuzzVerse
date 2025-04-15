@@ -1,3 +1,4 @@
-#home{
-    font-family: 'Roboto';
+.homeContainer{
+    display: flex;
+    width: 100%;
 }
